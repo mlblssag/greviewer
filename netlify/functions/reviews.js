@@ -1,7 +1,4 @@
-
 // netlify/functions/reviews.js
-const response = await fetch(...);
-
 export async function handler(event, context) {
   const placeId = process.env.PLACE_ID || 'ChIJr1jyc0DrzRIRwsYruaHDbxk';
   const apiKey = process.env.Greview;
@@ -40,4 +37,3 @@ export async function handler(event, context) {
     };
   }
 }
-
