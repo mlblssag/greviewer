@@ -1,6 +1,6 @@
 
 // netlify/functions/reviews.js
-import fetch from 'node-fetch';
+const response = await fetch(...);
 
 export async function handler(event, context) {
   const placeId = process.env.PLACE_ID || 'ChIJr1jyc0DrzRIRwsYruaHDbxk';
