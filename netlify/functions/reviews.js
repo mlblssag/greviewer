@@ -1,5 +1,5 @@
 export async function handler(event, context) {
-  const placeId = process.env.PLACE_ID || 'ChIJr1jyc0DrzRIRwsYruaHDbxk';
+  const placeId = process.env.PLACE_ID;
   const apiKey = process.env.Greview;
 
   if (!apiKey) {
